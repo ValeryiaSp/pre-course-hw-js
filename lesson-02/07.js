@@ -8,7 +8,7 @@ let passportMarried = {
 };
 
 let passportMarriedClone = JSON.parse(JSON.stringify(passportMarried));
-passportMarriedClone['married'] = true;
+passportMarriedClone.married = true;
 
 console.log(passportMarried);
 console.log(passportMarriedClone)
